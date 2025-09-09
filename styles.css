@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("background.jpg");
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+a {
+  font-family: Roboto;
+  font-size: 80px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 0 20px black;
+  text-decoration: none;
+}
+
+p {
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 0 0 20px black;
+}
+
+#hidden {
+  display: none;
+}
+
+#hidden:target {
+  display: block;
+}
